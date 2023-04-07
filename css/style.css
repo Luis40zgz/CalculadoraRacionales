@@ -1,0 +1,68 @@
+body {
+    background-color: darkblue;
+    color: gold;
+}
+hr{
+    color: gold;
+}
+form {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding: 10rem 0;
+}
+.input_zone *{
+    font-size: 2rem;
+    margin: 1rem;
+    border: .2rem solid gold;
+    border-radius: .5rem;
+    background-color: darkgrey;
+}
+.output_zone{
+    display: flex;
+}
+.output_zone *{
+    font-size: 2rem;
+}
+.output_zone>*{
+    width :50%;
+    height: 12rem;
+}
+.result{
+    border: .2rem solid gold;
+    border-radius: .5rem;
+}
+h1{
+    text-align: center;
+}
+.slash{
+    margin: 0;
+    rotate: -45deg;
+    width: 8rem;
+}
+.num {
+    margin: 0;
+    padding-right: 2rem;
+    padding-top: 2rem;
+}
+.den {
+    margin: 0;
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+}
+.screen {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+.error {
+    width:100%;
+    color: red;
+    height: 2rem;
+    display: flex;
+}
+.error>div{
+    width:50%;
+}
