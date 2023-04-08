@@ -21,8 +21,8 @@ if (isset($_POST['submit']))
             <select name="operacion" id="operacion">
                 <option value="+">+</option>
                 <option value="-">-</option>
-                <option value="x">x</option>
-                <option value="÷">÷</option>
+                <option value="*">*</option>
+                <option value=":">:</option>
             </select>
             <input type="text" name="racional_2" id="racional_2" value="<?=$operando_2??"";?>">
         </div>

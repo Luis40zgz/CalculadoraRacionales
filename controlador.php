@@ -33,10 +33,10 @@ if(isset($_POST['submit'])){
             case "-":
                 $resultado = Racional::restar($operando_1, $operando_2);
                 break;
-            case "x":
+            case "*":
                 $resultado = Racional::multiplicar($operando_1, $operando_2);
                 break;
-            case "÷":
+            case ":":
                 $resultado = Racional::dividir($operando_1, $operando_2);
                 break;
             default:
